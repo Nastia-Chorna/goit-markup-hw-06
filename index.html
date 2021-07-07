@@ -71,10 +71,58 @@
                             <use href="./images/cross-defs.svg.svg#icon-cross "></use>
                         </svg>
                     </button>
+
+           <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p> 
+           <form class="form">
+               <label class="form-label" for="name">Имя
+                   <span class="form-wrap">
+                       <input class="form-input" type="text" name="user-name" id="name">
+                       <svg class="form-ic">
+                           <use href="./images/ic-symbol-defs.svg#icon-human-ic"></use>
+                       </svg>
+                   </span>
+               </label>
+
+               <label class="form-label" for="name">Телефон
+                <span class="form-wrap">
+                    <input class="form-input" type="tel" name="tel" id="tel">
+                    <svg class="form-ic">
+                        <use href="./images/ic-symbol-defs.svg#icon-tel-ic"></use>
+                    </svg>
+                </span>
+            </label>
+
+            <label class="form-label" for="name">Почта
+                <span class="form-wrap">
+                    <input class="form-input" type="email" name="email" id="email">
+                    <svg class="form-ic">
+                        <use href="./images/ic-symbol-defs.svg#icon-mail-ic"></use>
+                    </svg>
+                </span>
+            </label>
+
+            <label class="input-comment" for="comment">Комментарий
+                <textarea class="input-text" name="comment" id="comment" cols="56" rows="8" placeholder="Введите текст"></textarea>
+            </label>
+
+            <label class="input-checkbox" for="agreement">
+                <input class="checkbox-form checkbox-hidden-agreement" type="checkbox" name="agreement" value="agreement" id="agreement">
+                <span class="icons-checkbox"></span>
+                <span class="checkbox-agree">
+                    Соглашаюсь с рассылкой и принимаю
+                    <a class="agreement-conditions" href="Условия договора">Условия договора</a>
+                </span>
+            </label>
+
+            <label for="submit">
+                <button data-modal-open type="button" class="button-first" type="button">Отправить</button>
+              
+            </label>
+               
+           </form>        
                     
                 </div>
             </div>
-
         </section>
 
         <!--description section-->
