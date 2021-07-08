@@ -62,7 +62,7 @@
             <h1> Эффективные решения <br/> для вашего бизнеса</h1>
         </div>
              
-        <button data-modal-open type="button" class="button-first" type="button">Заказать услугу</button>
+        <button data-modal-open class="button-first" type="button">Заказать услугу</button>
 
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
@@ -85,7 +85,7 @@
 
                <label class="form-label" for="name">Телефон
                 <span class="form-wrap">
-                    <input class="form-input" type="tel" name="tel" id="tel">
+                    <input class="form-input" for="tel" type="tel" name="tel" id="tel">
                     <svg class="form-ic">
                         <use href="./images/ic-symbol-defs.svg#icon-tel-ic"></use>
                     </svg>
@@ -94,7 +94,7 @@
 
             <label class="form-label" for="name">Почта
                 <span class="form-wrap">
-                    <input class="form-input" type="email" name="email" id="email">
+                    <input class="form-input" for="mail" type="mail" name="mail" id="mail">
                     <svg class="form-ic">
                         <use href="./images/ic-symbol-defs.svg#icon-mail-ic"></use>
                     </svg>
@@ -114,10 +114,9 @@
                 </span>
             </label>
 
-            <label for="submit">
-                <button data-modal-open type="button" class="button-first" type="button">Отправить</button>
+                <button data-modal-open class="button-second" for="button-second" id="button-second" type="button">Отправить</button>
               
-            </label>
+           
                
            </form>        
                     

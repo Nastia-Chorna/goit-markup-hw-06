@@ -54,8 +54,12 @@ visibility: hidden;
   stroke: 1px;
   width: 30px;
   height: 30px;
-  background-color: transparent;
-  
+  background-color: transparent; 
+}
+
+.close:hover,
+.close:focus{
+  fill: #2196F3;
 }
 .modal{
   position: absolute;
@@ -80,8 +84,8 @@ height: 30px;
 background-color: white;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
-margin-top: 8px;
-margin-right: 8px;
+/*margin-top: 8px;
+margin-right: 8px;*/
 display: flex;
 align-items: center;
 cursor: pointer;
@@ -228,7 +232,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 15px;
 
   border-radius: 2px;
-  border: 2px solid #188CE8;
+  border: 2px solid #212121;
   transition-property: border-color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -243,7 +247,11 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .checkbox-condit {
   text-decoration: underline;
   color: #188CE8;
- 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 
@@ -391,9 +399,7 @@ margin-left: 10px;
 
 
 
-.container-buttons:hover,
-:focus {color: white;
-}
+
 .bigger-section{
   padding-top: 94px;
   padding-bottom: 94px;
@@ -605,6 +611,23 @@ margin-bottom: 50px;
   cursor: pointer;
 }
 
+.button-second  {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--button-color);
+  background-color: #2196F3;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 55px;
+  border: 1px solid #2196F3;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+}
 h3{
   list-style: none;
  margin: 0;
@@ -969,7 +992,7 @@ footer{
   padding-right: 62px;
   padding-left: 29px;
   border: 0px solid transparent;
-  background: var(--accent-color);
+  background: #2196F3;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   border-radius: 4px;
   color: #fff;
